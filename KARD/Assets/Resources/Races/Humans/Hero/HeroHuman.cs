@@ -7,8 +7,10 @@ using ExitGames.Client.Photon;
 using System.IO;
 using System;
 
-public class HeroHuman : Creature
+public class HeroHuman : Hero
 {
+    public HeroHuman(GridManager man) : base(man) {}
+
     // Start is called before the first frame update
     void Start()
     {
