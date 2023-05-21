@@ -1,0 +1,337 @@
+fileFormatVersion: 2
+guid: ed974263767579a469d88c1de34096db
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 27
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 221b8fd235a578b4cb82583ccdd3fbc2
+      internalID: -290216823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 112
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e733050e380b8640b645b339c41bf29
+      internalID: 1948191386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 112
+        width: 25
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc368b8e4a541a14a923736667343081
+      internalID: -1882351589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 40
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0045bfba37d1b014899c16c106bc1a25
+      internalID: -1716753309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 40
+        width: 23
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 493af191000b056488e9ca01c455c604
+      internalID: 1370332736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 40
+        width: 18
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e2c80393d97f1409e6c2d7a4b1f99b
+      internalID: -140225074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_43
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 40
+        width: 34
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5daac38aa89c168449558c4017e33683
+      internalID: 1702936702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: zombie2-removebg-preview_44
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 40
+        width: 44
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484ddd87b9af43f4ca5006f983d90c17
+      internalID: -840351557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      zombie2-removebg-preview_0: 341123385
+      zombie2-removebg-preview_1: 393718635
+      zombie2-removebg-preview_10: -492045701
+      zombie2-removebg-preview_11: 1866443999
+      zombie2-removebg-preview_12: 1464074633
+      zombie2-removebg-preview_13: 719422834
+      zombie2-removebg-preview_14: -593634303
+      zombie2-removebg-preview_15: 195720016
+      zombie2-removebg-preview_16: -336881724
+      zombie2-removebg-preview_17: 817292089
+      zombie2-removebg-preview_18: 1385854675
+      zombie2-removebg-preview_19: -756514837
+      zombie2-removebg-preview_2: -877684721
+      zombie2-removebg-preview_20: -691280605
+      zombie2-removebg-preview_21: 1078802205
+      zombie2-removebg-preview_22: 281075635
+      zombie2-removebg-preview_23: 1253920017
+      zombie2-removebg-preview_24: -623574464
+      zombie2-removebg-preview_25: 1220586835
+      zombie2-removebg-preview_26: -891100490
+      zombie2-removebg-preview_27: -611755287
+      zombie2-removebg-preview_28: 172611628
+      zombie2-removebg-preview_29: 427031750
+      zombie2-removebg-preview_3: 1687308546
+      zombie2-removebg-preview_30: -1119236990
+      zombie2-removebg-preview_31: -137986147
+      zombie2-removebg-preview_32: -1428006881
+      zombie2-removebg-preview_33: -1737548329
+      zombie2-removebg-preview_34: -2007887253
+      zombie2-removebg-preview_35: 339612535
+      zombie2-removebg-preview_36: -290216823
+      zombie2-removebg-preview_37: 1948191386
+      zombie2-removebg-preview_38: -1882351589
+      zombie2-removebg-preview_39: -1833777936
+      zombie2-removebg-preview_4: 790283481
+      zombie2-removebg-preview_40: -1716753309
+      zombie2-removebg-preview_41: 1370332736
+      zombie2-removebg-preview_42: -140225074
+      zombie2-removebg-preview_43: 1702936702
+      zombie2-removebg-preview_44: -840351557
+      zombie2-removebg-preview_5: -1798941604
+      zombie2-removebg-preview_6: -59410690
+      zombie2-removebg-preview_7: -917834388
+      zombie2-removebg-preview_8: 352607525
+      zombie2-removebg-preview_9: 1247334119
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

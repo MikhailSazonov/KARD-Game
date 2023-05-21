@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Room for 2.unity
     guid: 9c08244d43fe4bc48bc66aabea100548
+  - enabled: 1
+    path: Assets/Scenes/DecksScene.unity
+    guid: 5c72e502c26baa946bb296c184a8f9a5
   m_configObjects: {}

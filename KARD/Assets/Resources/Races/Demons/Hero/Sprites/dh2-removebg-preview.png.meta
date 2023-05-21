@@ -1,0 +1,398 @@
+fileFormatVersion: 2
+guid: 83241cb8fabf0aa43a2b7301734e1531
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dh2-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 338
+        width: 8
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc7bc762fcfa2449afc023e8d23556f
+      internalID: -1467020677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_14
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 319
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef3a793c4f66f0443abd0bfa3b6b0771
+      internalID: -458211962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_16
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 319
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8cba0987dfb8df498bb663aef81ee06
+      internalID: 1555853168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_17
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 299
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfc84e6e7e342448a102fa60d98ba8b
+      internalID: 875521615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_32
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 113
+        width: 46
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a39e4be21e077fc469ad7f59a4205713
+      internalID: 2056012711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 113
+        width: 44
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6a6bbcfe59fa74ba1fae40587bbf18
+      internalID: 801880824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 40
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 990656e98621cdd4fac0a533da07b5e3
+      internalID: 622252675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 40
+        width: 42
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8603cf81e3d11cc4988b7442d1394641
+      internalID: 2110589334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 40
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84e7261f84d380f41bbe49a908f69a4f
+      internalID: -1346108515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 40
+        width: 40
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05f9e8bb266185d42964f46c813fbc15
+      internalID: -1066308512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dh2-removebg-preview_42
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 40
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d3813a3557fc2146a2d0daf6ed71f3c
+      internalID: -1245487177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dh2-removebg-preview_0: -1580907504
+      dh2-removebg-preview_1: 1472012369
+      dh2-removebg-preview_10: 872016307
+      dh2-removebg-preview_11: -2125368611
+      dh2-removebg-preview_12: -929679370
+      dh2-removebg-preview_13: -248078961
+      dh2-removebg-preview_14: -458211962
+      dh2-removebg-preview_15: 610038843
+      dh2-removebg-preview_16: 1555853168
+      dh2-removebg-preview_17: 875521615
+      dh2-removebg-preview_18: 106413931
+      dh2-removebg-preview_19: 1337972712
+      dh2-removebg-preview_2: -899244636
+      dh2-removebg-preview_20: 1455153713
+      dh2-removebg-preview_21: 829893846
+      dh2-removebg-preview_22: -1711627677
+      dh2-removebg-preview_23: -728468229
+      dh2-removebg-preview_24: 1426741469
+      dh2-removebg-preview_25: -1799968055
+      dh2-removebg-preview_26: -1911025647
+      dh2-removebg-preview_27: -1846759781
+      dh2-removebg-preview_28: 812017643
+      dh2-removebg-preview_29: 1734770514
+      dh2-removebg-preview_3: -1843849001
+      dh2-removebg-preview_30: -1020837708
+      dh2-removebg-preview_31: -1811950496
+      dh2-removebg-preview_32: 2056012711
+      dh2-removebg-preview_33: 801880824
+      dh2-removebg-preview_34: -1847893327
+      dh2-removebg-preview_35: -1903563605
+      dh2-removebg-preview_36: -371939110
+      dh2-removebg-preview_37: -622062195
+      dh2-removebg-preview_38: 622252675
+      dh2-removebg-preview_39: 2110589334
+      dh2-removebg-preview_4: -1552778335
+      dh2-removebg-preview_40: -1346108515
+      dh2-removebg-preview_41: -1066308512
+      dh2-removebg-preview_42: -1245487177
+      dh2-removebg-preview_5: 1716181798
+      dh2-removebg-preview_6: -410784874
+      dh2-removebg-preview_7: -506907898
+      dh2-removebg-preview_8: -1467020677
+      dh2-removebg-preview_9: 1708412251
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

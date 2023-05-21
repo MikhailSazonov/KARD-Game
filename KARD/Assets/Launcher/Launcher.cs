@@ -1,6 +1,7 @@
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using UnityEngine.SceneManagement;
 
 namespace KARD {
 
@@ -36,6 +37,11 @@ public class Launcher : MonoBehaviourPunCallbacks
     #endregion
 
     #region Public Methods
+
+    public void LoadDecks()
+    {
+        SceneManager.LoadScene(3);
+    }
 
     public void Connect()
     {
@@ -88,6 +94,11 @@ public class Launcher : MonoBehaviourPunCallbacks
     {
         Debug.LogWarningFormat("PUN Basics Tutorial/Launcher: OnDisconnected() was called by PUN with reason {0}", cause);
         controlPanel.SetActive(true);
+    }
+
+    public void Exit()
+    {
+        Application.Quit();
     }
 
     #endregion

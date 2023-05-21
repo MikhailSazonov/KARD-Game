@@ -1,0 +1,371 @@
+fileFormatVersion: 2
+guid: bb39582c77e469445852ccd3648fab20
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_34
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 112
+        width: 33
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f2e80278d587e4dbcfe2dde693a602
+      internalID: 164030537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_35
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 40
+        width: 44
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30eea24bbf381db4d8d31c19b208e9d5
+      internalID: 597805318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_36
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 40
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ae7581a8bc06634985b998ccc998408
+      internalID: -666230064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_37
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 40
+        width: 45
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76f1840ce0457c4bbca4fb29d6ae0d1
+      internalID: -363850671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_38
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 38
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b3a6cf94132cd74fb19bd86ee6b40ae
+      internalID: 656355393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_39
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 39
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071d51f7ce6e808418e6451b481ab2f9
+      internalID: 20461645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_40
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 39
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b93d0d7e05056489a4887030fcda54
+      internalID: -284563379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_41
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 39
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c47264b02b8b3db40b3a35c7b153369a
+      internalID: -1480539403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vamp2jpg-removebg-preview_56
+      rect:
+        serializedVersion: 2
+        x: 537
+        y: 40
+        width: 55
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04f7e86036afb9644a36bde26ca60f86
+      internalID: -1758505023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      vamp2jpg-removebg-preview_0: -744051519
+      vamp2jpg-removebg-preview_1: 589765865
+      vamp2jpg-removebg-preview_10: 530878237
+      vamp2jpg-removebg-preview_11: 1865399362
+      vamp2jpg-removebg-preview_12: 1991385268
+      vamp2jpg-removebg-preview_13: -419112735
+      vamp2jpg-removebg-preview_14: -201309087
+      vamp2jpg-removebg-preview_15: -1304469799
+      vamp2jpg-removebg-preview_16: -1378002986
+      vamp2jpg-removebg-preview_17: -305776489
+      vamp2jpg-removebg-preview_18: -485463956
+      vamp2jpg-removebg-preview_19: -598909233
+      vamp2jpg-removebg-preview_2: -1474136030
+      vamp2jpg-removebg-preview_20: 1702697284
+      vamp2jpg-removebg-preview_21: 884613604
+      vamp2jpg-removebg-preview_22: -678309911
+      vamp2jpg-removebg-preview_23: -652329623
+      vamp2jpg-removebg-preview_24: -1008423046
+      vamp2jpg-removebg-preview_25: 186541292
+      vamp2jpg-removebg-preview_26: 716766760
+      vamp2jpg-removebg-preview_27: -425230668
+      vamp2jpg-removebg-preview_28: -1403180611
+      vamp2jpg-removebg-preview_29: 1100336310
+      vamp2jpg-removebg-preview_3: -1879244076
+      vamp2jpg-removebg-preview_30: -656555301
+      vamp2jpg-removebg-preview_31: 1693803672
+      vamp2jpg-removebg-preview_32: -1250478100
+      vamp2jpg-removebg-preview_33: 1074097903
+      vamp2jpg-removebg-preview_34: 164030537
+      vamp2jpg-removebg-preview_35: 597805318
+      vamp2jpg-removebg-preview_36: -666230064
+      vamp2jpg-removebg-preview_37: -363850671
+      vamp2jpg-removebg-preview_38: 656355393
+      vamp2jpg-removebg-preview_39: 20461645
+      vamp2jpg-removebg-preview_4: -1274156768
+      vamp2jpg-removebg-preview_40: -284563379
+      vamp2jpg-removebg-preview_41: -1480539403
+      vamp2jpg-removebg-preview_42: -426995052
+      vamp2jpg-removebg-preview_43: -274690003
+      vamp2jpg-removebg-preview_44: 1229093976
+      vamp2jpg-removebg-preview_45: -1964940828
+      vamp2jpg-removebg-preview_46: 332329789
+      vamp2jpg-removebg-preview_47: 1484306822
+      vamp2jpg-removebg-preview_48: 519581139
+      vamp2jpg-removebg-preview_49: 1588310683
+      vamp2jpg-removebg-preview_5: -1874999404
+      vamp2jpg-removebg-preview_50: 830700293
+      vamp2jpg-removebg-preview_51: 1124269124
+      vamp2jpg-removebg-preview_52: -1040768836
+      vamp2jpg-removebg-preview_53: 114402456
+      vamp2jpg-removebg-preview_54: -248942967
+      vamp2jpg-removebg-preview_55: 416849376
+      vamp2jpg-removebg-preview_56: -1758505023
+      vamp2jpg-removebg-preview_57: 1292536540
+      vamp2jpg-removebg-preview_6: -802711761
+      vamp2jpg-removebg-preview_7: -1461562854
+      vamp2jpg-removebg-preview_8: 1677774753
+      vamp2jpg-removebg-preview_9: 1321585183
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

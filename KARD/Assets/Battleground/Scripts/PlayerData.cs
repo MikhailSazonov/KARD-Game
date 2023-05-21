@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
 using System;
 
 public class PlayerData
 {
-    public string hero_name;
+    public SortedSet<Creature> initiative_queue;
+    public SortedSet<Creature> initiative_queue_back;
+    Creature current_creature;
 
-    public Deck deck;
+    int round = 0;
 
     public struct CreaturesParams {
         public int StartX;
@@ -23,45 +26,77 @@ public class PlayerData
     [HideInInspector] public CreaturesParams player_params;
 
     public int currentMana;
-    public int maxMana;
+    public int maxMana = 10;
 
     public PlayerData(int StartX, float RotateY)
     {
         player_params = new CreaturesParams(StartX, RotateY);
-        Deck[] decks = GameObject.FindObjectsOfType<Deck>();
-        foreach (Deck next_deck in decks)
-        {
-            if (next_deck.deck_name == Deck.choosen_deck_name)
-            {
-                deck = next_deck;
-                break;
-            }
-        }
-        if (deck is null)
-        {
-            throw new DeckNotFoundException();
-        }
+        initiative_queue = new SortedSet<Creature>();
+        initiative_queue_back = new SortedSet<Creature>();
+        current_creature =  null;
 
-        currentMana = 0;
-        switch (deck.race)
+        currentMana = 1;
+    }
+
+    public Creature getCreature()
+    {
+        current_creature = initiative_queue.Min;
+        return current_creature;
+    }
+
+    public void SwapQueues()
+    {
+        var inter_q = initiative_queue;
+        initiative_queue = initiative_queue_back;
+        initiative_queue_back = inter_q;
+    }
+
+    void FinishRound()
+    {
+        SwapQueues();
+        ++round;
+        currentMana = Math.Min(round + 1, maxMana);
+        if (current_creature.ownerPlayer == PhotonNetwork.LocalPlayer.ActorNumber)
         {
-            case Race.Human:
-                hero_name = "HeroHuman";
-                break;
-            case Race.Demon:
-                hero_name = "HeroDemon";
-                break;
-            case Race.Undead:
-                hero_name = "HeroUndead";
-                break;
-            case Race.Elf:
-                hero_name = "HeroElf";
-                break;
+            DeckManager.deckManagerSingletone.DrawCard();
         }
     }
 
-    void RenewMana(int turn)
+    public void AddSummoned(Creature creature)
     {
-        currentMana = Math.Min(turn + 1, maxMana);
+        initiative_queue_back.Add(creature);
+    }
+    
+    public void Print()
+    {
+        foreach(var cr in initiative_queue)
+        {
+            Debug.LogFormat("{0} {1}", cr.creatureName, cr.ownerPlayer);
+        }
+        foreach(var cr in initiative_queue_back)
+        {
+            Debug.LogFormat("{0} {1}", cr.creatureName, cr.ownerPlayer);
+        }
+    }
+
+    public void RemoveSummoned(Creature creature)
+    {
+        initiative_queue.Remove(creature);
+        initiative_queue_back.Remove(creature);
+    }
+
+    public void FinishTurn()
+    {
+        initiative_queue.Remove(current_creature);
+        initiative_queue_back.Add(current_creature);
+        Debug.LogFormat("Players: {0} {1}", current_creature.ownerPlayer, PhotonNetwork.LocalPlayer.ActorNumber);
+        if (current_creature.ownerPlayer == PhotonNetwork.LocalPlayer.ActorNumber)
+        {
+            DeckManager.deckManagerSingletone.FinishTurn();
+        }
+        if (initiative_queue.Count == 0)
+        {
+            FinishRound();
+        }
     }
 }

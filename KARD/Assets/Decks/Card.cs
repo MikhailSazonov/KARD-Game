@@ -2,21 +2,34 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 
+
+[System.Serializable]
+[KnownType(typeof(CreatureCard))]
 public abstract class Card
 {
-    public abstract void Play(GridManager manager, int tile_x, int tile_y);
+    public string cardName;
+    public string imagePath;
+    public int manacost;
+    public Race race;
+
+    public abstract bool Play(int tile_x, int tile_y);
 }
 
 
+[System.Serializable]
 public class CardCollection
 {
     public List<Card> data;
     int iterator_idx;
 
-    public CardCollection(List<Card> data)
+    public CardCollection(List<Card> takeData)
     {
-        this.data = data;
+        data = takeData;
     }
 
     public void StartTheGame()

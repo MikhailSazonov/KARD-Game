@@ -10,29 +10,18 @@ public enum Race
     Elf
 }
 
-public class Deck : MonoBehaviour
+[System.Serializable]
+public class Deck
 {
-    public static int MAX_CARDS = 30;
-    public static string choosen_deck_name;
-
-    public Race race;
-    public string deck_name;
-    List<Card> menu_cards;
+    public Race race = Race.Human;
+    public string deck_name = "TestDeck";
+    public List<Card> menu_cards = new List<Card>();
 
     CardCollection collection;
 
-    void Start() {}
-
-    void Update() {}
-
-    public void Awake()
-    {
-        DontDestroyOnLoad(gameObject);
-    }
-
     public void StartTheGame()
     {
-        if (menu_cards.Count != MAX_CARDS)
+        if (menu_cards.Count != DeckMenuManager.MAX_CARDS)
         {
             throw new NotEnoughCardException();
         }
@@ -40,21 +29,21 @@ public class Deck : MonoBehaviour
         collection.StartTheGame();
     }
 
-    public void AddCard(Card card)
+    /// Menu functions
+    public int AddCard(Card card)
     {
-        if (menu_cards.Count == MAX_CARDS)
+        if (menu_cards.Count == DeckMenuManager.MAX_CARDS)
         {
-            return;
+            return -1;
         }
-        else
-        {
-            menu_cards.Add(card);
-        }
+        int cnt = menu_cards.Count;
+        menu_cards.Add(card);
+        return cnt;
     }
 
     public void DeleteCard(int idx)
     {
-        if (idx < 0 || idx > menu_cards.Count)
+        if (idx < 0 || idx >= menu_cards.Count)
         {
             return;
         }
@@ -64,7 +53,23 @@ public class Deck : MonoBehaviour
         }
     }
 
-    Card getNextCard()
+    public bool isFull()
+    {
+        return menu_cards.Count == DeckMenuManager.MAX_CARDS;
+    }
+
+    public int Size()
+    {
+        return menu_cards.Count;
+    }
+
+    public void Clear()
+    {
+        menu_cards.Clear();
+    }
+
+    /// Game functions
+    public Card getNextCard()
     {
         return collection.getNextCard();
     }
